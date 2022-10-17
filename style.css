@@ -1,0 +1,244 @@
+
+  * {
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Gruppo', cursive;}
+
+
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color:black;
+    color:white;
+  }
+  h3 {
+    font-size:100px;
+    color:red;
+    margin:40px;
+    display:inline-block;
+  }
+  .main {
+    background-color:black;
+    color:white;text-align: center;
+    gap:100px;
+
+  }
+
+  .intro {
+    color:red;
+    font-weight:100;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    justify-content: center;
+  }
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #818181;
+    display: block;
+
+  }
+  #navbar-img{
+    width:inherit;
+    height:30%;
+  }
+
+  .sidenav a:hover {
+    background-color: black;
+    border: 1px  solid black;
+
+  }
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 16px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  #about{
+    display:flex;
+    height:100vh;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#education {
+    display:flex;
+    height:100vh;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    border:0;
+}
+#education > h3{
+    text-align:center;
+    color:red;
+    order:-1;
+
+}
+
+#first-university {
+  border: 1px solid red;
+
+}
+#second-university{
+  border: 1px solid red;;
+
+}
+#experience {
+  display:flex;
+  height:100vh;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  column-count:2 50%;
+  flex-direction:row;
+  gap:10px;
+  column-width: 50vh;
+  background-color: rgb(8, 8, 8,0.5);
+
+
+
+
+
+}
+.job{
+border: 1px solid  #111;
+text-align:center;
+background-color: rgb(8, 8, 8,1);
+
+
+
+}
+.job :hover{
+  background-color:black;
+  font-size:17px;
+}
+
+.responsibilities {
+  text-decoration: none;
+  list-style-type:circle;
+  text-align:start;
+
+
+}
+
+#courses-bootcamps {
+  display:grid;
+
+  height:100vh;
+  width:100%;
+  text-align:center;
+  padding:30px;
+  justify-content:flex-start;
+  align-items:flex-start;
+
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,200px);
+  grid-template-rows: repeat(3,200px);
+  grid-gap:30px 30px;
+
+
+}
+.grid-item {
+
+  border:1px solid red;
+  list-style-type:none;
+  text-align:center;
+  justify-content: center;
+  align-items:center;
+  margin:auto;
+  background-color:#111;
+  padding:30px;
+
+
+}
+.grid-item:hover {
+  font-size: 18px;
+  background-color:black;
+}
+
+#skills{
+
+
+  height:100vh;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  border:0;
+  margin:80px;
+
+}
+
+.flex {
+  display:flex;
+  flex-direction: row;
+  gap:10px;
+  margin:70px;
+  border-radius:100%;
+  height:100vh;
+  width:100%;
+
+  padding:30%;
+
+
+}
+
+.flex-item{
+  height:100px;
+  width:auto;
+  list-style-type:none;
+  text-align:center;
+  justify-content: center;
+  align-items:center;
+  margin:auto;
+  background-color:#111;
+
+}
+.flex-item:hover{
+  color:red;
+  border:2px solid black;
+  border-radius:100%;
+  background-color: rgb(10, 8, 8);
+}
+
+.languages{
+  height:100vh;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  border:0;
+}
+
+
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+/* animation  code ends here */
+
