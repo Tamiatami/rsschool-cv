@@ -2,7 +2,7 @@
 
 **Nationality:** Georgian  
 **Date of Birth:** 19/06/2002  
-**Phone Number:** (+995) 598831156  
+**Phone Number:** (+995) 574183163 
 **Email:** mtchedlidze.tamta@gmail.com  
 **Website:** [LinkedIn](www.linkedin.com/in/
 tamta-mtchedlidze)  
