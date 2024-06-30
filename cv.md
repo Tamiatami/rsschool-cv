@@ -4,7 +4,8 @@
 **Date of Birth:** 19/06/2002  
 **Phone Number:** (+995) 598831156  
 **Email:** mtchedlidze.tamta@gmail.com  
-**Website:** [LinkedIn](https://www.linkedin.com/in/tamta-mtchedlidze-a80891214/)  
+**Website:** [LinkedIn](www.linkedin.com/in/
+tamta-mtchedlidze)  
 **Home Address:** Sulkhan Tsintsadze Street 77, Floor 2, Apartment N59, 0160 Tbilisi, Georgia
 
 ## ABOUT ME
@@ -220,4 +221,4 @@
 
 ## ADDITIONAL INFORMATION
 
-**LinkedIn:** [linkedin.com/in/tamta-mtchedlidze-a80891214](https://www.linkedin.com/in/tamta-mtchedlidze-a80891214/)
+**LinkedIn:** [linkedin.com/in/tamta-mtchedlidze-a80891214](https://www.linkedin.com/in/tamta-mtchedlidze/)
