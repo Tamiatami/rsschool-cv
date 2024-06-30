@@ -1,2 +1,1 @@
-
-https://github.com/Tamiatami/rsschool-cv/blob/gh-pages/cv.md
+https://Tamiatami.github.io/rsschool-cv/cv
