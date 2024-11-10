@@ -135,8 +135,8 @@ As a passionate Junior Developer with a solid background in both the hospitality
 ---
 ## **Language Skills** 🗣️
 
-**Mother Tongue(s):** Georgian  
-**English:** B2 (Independent User)  
+**Mother Tongue(s):** Georgian, English 
+**Spanish:** B1 (Independent User)  
 **Russian:** B1 (Independent User)
 
 ---
