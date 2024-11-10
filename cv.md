@@ -133,5 +133,14 @@ As a passionate Junior Developer with a solid background in both the hospitality
 **01/02/2024 – CURRENT**
 
 ---
+## **Language Skills** 🗣️
 
+**Mother Tongue(s):** Georgian  
+**English:** B2 (Independent User)  
+**Russian:** B1 (Independent User)
+
+---
+
+## **Personal Achievements** 🏅
+- **Athletics:** 3-time national champion, 2015 European Youth Games qualifier, Regional record holder, National team 2020 qualifier.
 
