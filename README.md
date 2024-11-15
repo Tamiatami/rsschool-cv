@@ -5,6 +5,7 @@ Welcome to my Junior Developer CV!
 You can view my CV at the following link:
 
 [**Click here to view my CV**](https://tamiatami.github.io/rsschool-cv/cv)
+[**Click here to view my CV using HTML and CSS**](https://github.com/Tamiatami/rsschool-cv/blob/rsschool-cv-html/index.html)
 
 This is the link to my resume, which includes all the relevant details about my skills, education, and experience as a Junior Developer.
 
