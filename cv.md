@@ -98,5 +98,45 @@ As a passionate Junior Developer with a solid background in both the hospitality
 *2022-2023*
 
 ---
+## Quote
+**"Hire me and watch as my unique blend of hospitality experience and tech skills revolutionizes your operations and customer satisfaction."**
 
+---
+
+## Skills
+
+### Programming Languages
+- PHP  
+- JavaScript  
+- SQL  
+- MySQL
+
+### Web Development
+- HTML/CSS  
+- Sass  
+- Bootstrap  
+- Drupal  
+- Git/GitHub  
+- Figma
+
+### Hotel Management Skills
+- Airbnb.com  
+- Booking.com  
+- Fina  
+- 1C  
+- Arealy  
+- trip.com  
+- Expedia.com  
+- Tripadvisor
+
+### Soft Skills
+- Leadership  
+- Teamwork  
+- Time Management  
+- Decision Making  
+- Customer Service  
+- Communication  
+- Problem Solving
+
+---
 
