@@ -139,4 +139,9 @@ As a passionate Junior Developer with a solid background in both the hospitality
 - Problem Solving
 
 ---
+## Contact Information
+- LinkedIn: [linkedin.com/in/tamta-mtchedlidze](https://www.linkedin.com/in/tamta-mtchedlidze)
+- Email: mtchedlidze.tamta@gmail.com
+
+
 
