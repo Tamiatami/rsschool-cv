@@ -1,0 +1,286 @@
+body {
+    background-color: black;
+    color: white; 
+    font-weight: 500;
+    margin: 0; 
+    padding: 0;
+}
+/* Fire Effect on Name */
+.fire-effect {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    background: linear-gradient(45deg, rgba(255, 69, 0, 1), rgba(255, 215, 0, 1), rgba(255, 140, 0, 1));
+    background-size: 400% 400%;
+    animation: fireEffect 4s ease-in-out infinite;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 5px rgba(255, 69, 0, 1), 0 0 10px rgba(255, 69, 0, 1), 0 0 20px rgba(255, 140, 0, 1), 0 0 30px rgba(255, 140, 0, 1);
+}
+
+@keyframes fireEffect {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.navbar-left {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-left li {
+    margin-right: 20px;
+}
+
+.navbar-left a {
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-left a:hover {
+    background-color: red;
+    color: white;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.header {
+    font-family: sans-serif, Verdana;
+    color: #DC143C;
+    text-align: center;
+}
+
+.header.h3 {
+    color: #DC143C;
+}
+
+#summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.summary-left {
+    flex: 1;
+    padding-right: 20px; 
+    padding-top: 50px;
+}
+
+.summary-right {
+    flex: 2;
+}
+
+.summary-left h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.summary-left h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.summary-right p {
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+h2, h3, h4 {
+    color: #DC143C;
+    text-align: center;
+}
+
+
+
+.education-section-item {
+    border: 1px solid #DC143C;
+    text-align: center; 
+    background-color: #1d1919; 
+    color: white;
+}
+
+.education-section-item:hover {
+    flex-grow: 2;
+}
+
+.education-section {
+    display: flex; 
+    flex-wrap: row;
+    justify-content: space-evenly; 
+    gap: 10px 30px; 
+}
+
+.work-experience-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    padding: 20px;
+}
+
+.work-experience-container > div {
+    background-color: black;
+    padding: 15px;
+    border: 1px solid #DC143C;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.work-experience-section-title h3 {
+    color: #DC143C;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.company-description p {
+    margin: 5px 0;
+    color: white;
+}
+
+.work-experience-section-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.work-experience-section-list li {
+    margin-bottom: 8px;
+    color: white;
+}
+
+h4 {
+    color: #DC143C;
+    margin-bottom: 10px;
+}
+
+.skills-section {
+    margin-bottom: 20px;
+}
+
+.skills-section h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    align-selft:left;
+}
+
+.skills-section-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.skills-section-list-item {
+    background-color: black; 
+    padding: 8px 12px;
+    border-radius: 5px; 
+    font-size: 16px;
+    font-weight: normal;
+    white-space: nowrap; 
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    flex-basis: 150px; 
+    text-align: center;
+    border:1px solid #DC143C; 
+}
+
+.skills-section-list-item:hover {
+    background-color:  #DC143C;
+}
+.quote-section {
+    text-align: center; /* Center the text horizontally */
+    padding: 50px 0; /* Add some space around the text */
+  }
+  
+  .quote-text {
+    font-size: 3rem; /* Almost the size of h1 */
+    font-weight: bold;
+    color: white;
+    animation: colorChange 3s infinite; /* Apply the color change animation */
+  }
+  
+  @keyframes colorChange {
+    0% {
+      color: white;
+    }
+    50% {
+      color: #DC143C; 
+    100% {
+      color: white;
+    }
+  }
+
+ /* Footer Section */
+footer.contact-information-section {
+    background-color: #f8f9fa;  /* You can change the background color */
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;  /* Use Flexbox to display items in a row */
+    justify-content: flex-start;  /* Align items to the left */
+    align-items: center;  /* Vertically align the items */
+  }
+  
+  .social-media-section {
+    display: flex;
+    align-items: center;  /* Vertically center the items */
+  }
+  
+  .social-media-section h6 {
+    margin-right: 15px;  /* Space between heading and the list */
+  }
+  
+  .social-media-section ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;  /* Display the list items in a row */
+    gap: 15px;  /* Space between the social media items */
+    margin: 0;
+  }
+  
+  .social-media-section li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-media-section a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #000;  /* You can change the color if you like */
+  }
+  
+  .social-icon {
+    font-size: 18px;  /* Adjust icon size */
+    color: #007bff;  /* Set color for the icons */
+  }
+  
